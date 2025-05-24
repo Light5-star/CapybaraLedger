@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/accent</item>
+        <item name="android:windowBackground">@color/accent</item>
+    </style>
+
+<!--    有bug，暂时不用-->
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <!-- 头部背景色 -->
+        <item name="colorPrimary">@color/primary</item>
+        <!-- 确定/取消按钮颜色 -->
+        <item name="colorAccent">@color/primary</item>
+        <!-- 日期/时间选择器背景 -->
+        <item name="android:windowBackground">@color/accent</item>
+
+        <!-- 取消按钮颜色 -->
+        <item name="colorButtonNormal">@color/primary</item> <!-- 黑色 -->
+
+    </style>
+
+    <style name="TransparentBottomSheetStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+</resources>

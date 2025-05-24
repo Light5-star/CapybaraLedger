@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/accent">
+
+    <!-- 账单列表 -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_bills"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingBottom="16dp" />
+
+    <!-- 空数据提示 -->
+    <LinearLayout
+        android:id="@+id/empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_empty_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="本月暂无账单数据"
+            android:textSize="16sp"
+            android:textColor="@color/text_secondary"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="快去记一笔吧~"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/text_secondary"/>
+    </LinearLayout>
+
+</FrameLayout> 

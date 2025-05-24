@@ -1,0 +1,262 @@
+<resources>
+    <string name="app_name">卡皮本地记账软件</string>
+
+    <!--    导航栏文本-->
+    <string name="title_home">首页</string>
+    <string name="title_details">明细</string>
+    <string name="title_add">记一笔</string>
+    <string name="title_statistics">统计</string>
+    <string name="title_profile">我的</string>
+
+    <!--    通用-->
+    <string name="back">返回</string>
+    <string name="close">关闭</string>
+
+    <!--    账本文本-->
+    <string name="select_ledger">账本选择</string>
+    <string name="select_bill_type">类型选择</string>
+    <string name="home_select_ledger">选择账本</string>
+    <string name="ledger_default">默认账本</string>
+    <string name="category_icon_desc">分类图标</string>
+    <string name="category_select_title">选择分类</string>
+    <string name="bill_ledger_select">请选择账本</string>
+    <string name="bill_amount_hint">请输入金额</string>
+    <string name="bill_note_hint">添加备注</string>
+    <string name="bill_payee_hint">添加收/付款对象</string>
+    <string name="bill_amount_empty">请输入金额</string>
+    <string name="bill_category_select">选择分类</string>
+    <string name="bill_add">记一笔</string>
+    <string name="bill_edit">编辑账单</string>
+    <string name="bill_delete">删除账单</string>
+    <string name="bill_delete_confirm">确定要删除这笔账单吗？</string>
+    <string name="bill_save_success">保存成功</string>
+    <string name="bill_save_failed">保存失败</string>
+    <string name="bill_delete_success">删除成功</string>
+    <string name="bill_delete_failed">删除失败</string>
+
+    <!-- Bill List -->
+    <string name="bill_income">收入</string>
+    <string name="bill_expense">支出</string>
+    <string name="bill_amount">¥ %1$.2f</string>
+    <string name="bill_time">%1$s</string>
+
+    <!--    主页界面文本-->
+    <string name="home_today">今天</string>
+    <string name="home_no_bills">今天还没有记账哦~</string>
+
+    <!--    明细界面文本-->
+    <string name="details_list_mode">流水模式</string>
+    <string name="details_calendar_mode">日历模式</string>
+    <string name="details_total_expense">支出：¥%1$.2f</string>
+    <string name="details_total_income">收入：¥%1$.2f</string>
+    <!-- 日历相关 -->
+    <string name="prev_month">上个月</string>
+    <string name="next_month">下个月</string>
+    <string name="sunday">日</string>
+    <string name="monday">一</string>
+    <string name="tuesday">二</string>
+    <string name="wednesday">三</string>
+    <string name="thursday">四</string>
+    <string name="friday">五</string>
+    <string name="saturday">六</string>
+    <!--    统计界面文本-->
+    <string name="ledger_select_desc">选择账本</string>
+    <string name="prev_month_desc">上个月</string>
+    <string name="next_month_desc">下个月</string>
+    <string name="statistics_expense">支出</string>
+    <string name="statistics_income">收入</string>
+    <string name="statistics_balance">结余</string>
+    <string name="statistics_month_summary">本月统计</string>
+
+    <!--    我的界面文本-->
+    <string name="other_settings">设置</string>
+    <string name="other_feedback">用户反馈</string>
+    <string name="other_about">关于我们</string>
+    <string name="other_logout">退出登录</string>
+
+    <!-- Profile Edit -->
+    <string name="profile_edit_title">编辑个人信息</string>
+    <string name="save">保存</string>
+    <string name="profile_edit_avatar">头像</string>
+    <string name="profile_edit_id">ID</string>
+    <string name="profile_edit_id_hint">设置后不可修改</string>
+    <string name="profile_edit_nickname">昵称</string>
+    <string name="profile_edit_nickname_hint">请输入昵称</string>
+    <string name="profile_edit_gender">性别</string>
+    <string name="profile_edit_gender_hint">请选择性别</string>
+    <string name="profile_edit_birthday">生日</string>
+    <string name="profile_edit_birthday_hint">请选择生日</string>
+    <string name="profile_edit_save_success">保存成功</string>
+    <string name="profile_edit_id_exists">ID已存在</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+    <string name="other">其他</string>
+
+    <!--    工具-->
+    <string name="tool_ledger">账本管理</string>
+    <string name="tool_import_export">账单导出</string>
+    <string name="tool_password">密码锁</string>
+    <string name="tool_reminder">记账提醒</string>
+    <string name="tool_category">分类管理</string>
+    <string name="tool_budget">预算管理</string>
+    <string name="tool_statistics">统计报表</string>
+    <string name="tool_backup">数据备份</string>
+
+    <!-- 报告相关 -->
+    <string name="report_title">账单报告</string>
+    <string name="report_weekly">周报</string>
+    <string name="report_monthly">月报</string>
+    <string name="report_quarterly">季报</string>
+    <string name="report_yearly">年报</string>
+    <string name="report_weekly_desc">查看本周收支情况和消费分析</string>
+    <string name="report_monthly_desc">查看本月收支趋势和消费分布</string>
+    <string name="report_quarterly_desc">查看本季度财务状况和消费习惯</string>
+    <string name="report_yearly_desc">查看全年收支概况和理财建议</string>
+
+    <!--    主题-->
+    <string name="theme_title">主题设置</string>
+    <string name="theme_light">浅色模式</string>
+    <string name="theme_dark">深色模式</string>
+    <string name="theme_system">跟随系统</string>
+
+    <!-- 统计相关 -->
+    <string name="statistics_trend_mode">趋势</string>
+    <string name="statistics_rank_mode">排行</string>
+
+    <!-- Daily Quotes -->
+    <string-array name="daily_quotes">
+        <item>今天又是记账的好日子</item>
+        <item>养成记账习惯，是迈向财务自由的第一步</item>
+        <item>不记录就没有发生，记账让生活更清晰</item>
+        <item>每一笔支出都值得被记录</item>
+        <item>今天的记账是明天的财务报表</item>
+        <item>记账不是约束，而是让你更了解自己</item>
+        <item>积跬步以至千里，积小账以明大财</item>
+        <item>把握现在的每一分钱，规划未来的每一步</item>
+        <item>理财从记账开始，梦想从现在起步</item>
+        <item>好的记账习惯，是最好的理财计划</item>
+        <item>记账是对生活的细腻观察，每一笔都是成长的印记</item>
+        <item>今天的每一笔记录，都是未来财务自由的基石</item>
+        <item>不积小流无以成江海，不记小钱无以理大财</item>
+        <item>理财先理心，记账记人生</item>
+        <item>每一次记账，都是对生活的一次反思</item>
+        <item>数字不会说谎，记账让你的财务状况一目了然</item>
+        <item>用记账的习惯，雕刻出更清醒的财务人生</item>
+        <item>记账是平凡日子里的理财修行</item>
+        <item>你对待每一笔账的态度，决定了未来的财务高度</item>
+        <item>今天多记一笔账，明天少一分迷茫</item>
+        <item>记账不是吝啬，而是对生活的认真态度</item>
+        <item>每一个数字背后，都藏着你未曾察觉的消费真相</item>
+        <item>养成记账习惯，让你的每一分钱都有迹可循</item>
+        <item>记账是写给未来的自己的财务情书</item>
+        <item>从记账开始，学会和金钱建立健康的对话</item>
+        <item>你不理财，财不理你——记账是理财的第一步</item>
+        <item>用记账的仪式感，赋予生活更多掌控感</item>
+        <item>今天的记账本，是明天的财务指南针</item>
+        <item>记账是对生活的温柔记录，更是对未来的郑重承诺</item>
+        <item>每一次点击记账按钮，都是对财务自由的一次靠近</item>
+    </string-array>
+
+    <!-- iconfont字体-->
+    <string name="social">&#xe615;</string>
+    <string name="icon_weixin">&#xe602;</string>
+    <string name="icon_qq">&#xe883;</string>
+    <string name="icon_drink">&#xe659;</string>
+    <string name="icon_bangong">&#xe654;</string>
+    <string name="icon_yiliao">&#xe656;</string>
+    <string name="icon_jiaoyu">&#xe661;</string>
+    <string name="icon_category">&#xe692;</string>
+    <string name="icon_gudong_fenhong">&#xe687;</string>
+    <string name="icon_chat_bubble_13">&#xe615;</string>
+    <string name="icon_lingshi">&#xe607;</string>
+    <string name="icon_fanyule">&#xe6b3;</string>
+    <string name="icon_qiche_001">&#xe81f;</string>
+    <string name="icon_licai">&#xe6c4;</string>
+    <string name="icon_chongwu">&#xe8b3;</string>
+    <string name="icon_riyongpin">&#xe65d;</string>
+    <string name="icon_ziliao_ku">&#xe601;</string>
+    <string name="icon_caipiao">&#xe614;</string>
+    <string name="icon_hongbao">&#xe784;</string>
+    <string name="icon_gouwuche">&#xe63f;</string>
+    <string name="icon_shuma_jiadian_leimu">&#xe6f1;</string>
+    <string name="icon_yundong">&#xe63a;</string>
+    <string name="icon_zhufang">&#xe751;</string>
+    <string name="icon_jiaotong_xinxi">&#xe63d;</string>
+    <string name="icon_aixin_juanzeng">&#xe61c;</string>
+    <string name="icon_youxi">&#xe618;</string>
+    <string name="icon_meirong">&#xe62c;</string>
+    <string name="icon_gongzi_jianyi">&#xe620;</string>
+    <string name="icon_shuiguo">&#xe882;</string>
+    <string name="icon_dianhua">&#xe88b;</string>
+    <string name="icon_canyin">&#xe8a4;</string>
+    <string name="icon_gift">&#xe617;</string>
+    <string name="icon_jiangjin_guize">&#xe62f;</string>
+    <string name="icon_jiating_guanxi">&#xe615;</string>
+    <string name="icon_kuaidi">&#xe627;</string>
+    <string name="icon_shucai">&#xe606;</string>
+    <string name="icon_chongwu_fushi">&#xe60d;</string>
+    <string name="icon_liwulipin">&#xe617;</string>
+    <string name="icon_report">&#xe641;</string>
+    <string name="icon_budget">&#xebc4;</string>
+    <string name="icon_setting">&#xe600;</string>
+    <string name="icon_jiahao">&#xe726;</string>
+    <string name="icon_feedback">&#xe738;</string>
+    <string name="icon_home">&#xe751;</string>
+    <string name="icon_mingxi">&#xe628;</string>
+    <string name="icon_vip">&#xe737;</string>
+    <string name="icon_tubiao">&#xe6d8;</string>
+    <string name="icon_theme">&#xe605;</string>
+    <string name="icon_about">&#xe60b;</string>
+    <string name="icon_jianshao_jianquan_jiahao">&#xe62a;</string>
+    <string name="icon_reminder">&#xe65e;</string>
+    <string name="icon_ledger">&#xe624;</string>
+    <string name="icon_logout">&#xe613;</string>
+    <string name="icon_rili">&#xe662;</string>
+    <string name="icon_chuangjian_tianjia_piliang_tianjia">&#xe625;</string>
+    <string name="icon_wode">&#xe6df;</string>
+    <string name="icon_export">&#xe6a2;</string>
+
+    <!-- 账本选择器 -->
+    <string name="ledger_selector_title">账本选择</string>
+    <string name="selected">已选择</string>
+
+    <!-- 新增分析模式字符串 -->
+    <string name="statistics_analysis_mode">分析</string>
+
+    <!-- 预测分析相关 -->
+    <string name="prediction_title">智能预测走向</string>
+    <string name="prediction_current">当前支出</string>
+    <string name="prediction_forecast">预测支出</string>
+    <string name="prediction_average">平均支出</string>
+    <string name="prediction_current_date">当前日期</string>
+    <string name="prediction_loading">加载中…</string>
+    <string name="prediction_no_data">本月暂无数据</string>
+    <string name="prediction_no_expense_data">本月暂无支出数据</string>
+    <string name="prediction_no_data_message">本月暂无数据，无法进行预测分析</string>
+    <string name="prediction_no_expense_message">本月暂无支出数据，无法进行预测分析</string>
+    <string name="prediction_load_failed">加载失败: %1$s</string>
+    <string name="prediction_analysis_failed">数据分析异常，请稍后再试</string>
+    <string name="prediction_trend_up">上升</string>
+    <string name="prediction_trend_down">下降</string>
+    <string name="prediction_trend_stable">平稳</string>
+    <string name="prediction_summary_trend">根据历史数据分析，近期支出趋势预计%1$s</string>
+    <string name="prediction_summary_change_rate">，变化幅度约%1$s%%</string>
+    <string name="prediction_summary_current_expense">本月累计支出：¥%1$.2f</string>
+    <string name="prediction_summary_predicted_expense">预计本月总支出：¥%1$.2f</string>
+    <string name="prediction_summary_next_month">预计%1$d月前7天支出：¥%2$.2f</string>
+    <string name="date_day_suffix">日</string>
+    <string name="currency_prefix">¥</string>
+
+    <!-- AI财务建议相关 -->
+    <string name="ai_suggestion_title">AI财务建议</string>
+    <string name="ai_suggestion_refresh">刷新建议</string>
+    <string name="ai_suggestion_loading">正在生成个性化财务建议，请稍等...</string>
+    <string name="ai_suggestion_error">获取AI建议失败，请点击刷新按钮重试</string>
+    <string name="ai_suggestion_empty">暂无足够数据生成针对性建议，请持续记录您的财务状况</string>
+
+    <!--    反馈与捐赠-->
+    <string name="zhifubao">&#xe608;</string>
+    <string name="weixin">&#xe602;</string>
+    <string name="qq">&#xe883;</string>
+    <string name="email">&#xe623;</string>
+</resources>

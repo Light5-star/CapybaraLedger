@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.xuhh.capybaraledger.ui.fragment.home.HomeFragment"
+        android:label="@string/title_home" />
+
+    <fragment
+        android:id="@+id/navigation_details"
+        android:name="com.xuhh.capybaraledger.ui.fragment.detail.DetailFragment"
+        android:label="@string/title_details" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/navigation_add"-->
+<!--        android:name="com.xuhh.capybaraledger.ui.main_fragment.add.AddFragment"-->
+<!--        android:label="@string/title_add" />-->
+
+    <fragment
+        android:id="@+id/navigation_statistics"
+        android:name="com.xuhh.capybaraledger.ui.fragment.statistics.StatisticsFragment"
+        android:label="@string/title_statistics" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.xuhh.capybaraledger.ui.fragment.profile.ProfileFragment"
+        android:label="@string/title_profile" />
+</navigation> 

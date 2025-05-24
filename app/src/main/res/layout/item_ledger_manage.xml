@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:gravity="center_vertical"
+    android:background="?attr/selectableItemBackground">
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@color/text_primary"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tv_default_tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="默认"
+        android:textColor="@color/primary"
+        android:textSize="14sp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/btn_set_default"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="设为默认"
+        android:textColor="@color/primary"
+        android:textSize="14sp"
+        android:background="?attr/selectableItemBackground"/>
+
+    <TextView
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_marginStart="8dp"
+        android:text="删除"
+        android:textColor="@color/text_danger"
+        android:textSize="14sp"
+        android:background="?attr/selectableItemBackground"/>
+</LinearLayout> 

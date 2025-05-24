@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/accent">
+
+    <!-- 类型选择 - 始终显示 -->
+    <LinearLayout
+        android:id="@+id/layout_type_selector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/btn_expense"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:paddingHorizontal="16dp"
+            android:gravity="center"
+            android:text="@string/statistics_expense"
+            android:textSize="14sp"
+            android:textColor="@color/accent"
+            android:background="@drawable/bg_mode_switch_item_selected"/>
+
+        <TextView
+            android:id="@+id/btn_income"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:layout_marginStart="8dp"
+            android:paddingHorizontal="16dp"
+            android:gravity="center"
+            android:text="@string/statistics_income"
+            android:textSize="14sp"
+            android:textColor="@color/text_primary"
+            android:background="@drawable/bg_mode_switch_item"/>
+    </LinearLayout>
+
+    <!-- 主要内容 -->
+    <LinearLayout
+        android:id="@+id/content_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="16dp"
+        android:paddingBottom="16dp"
+        android:paddingTop="64dp">
+
+        <!-- 饼图 -->
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/pieChart"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_marginTop="16dp"/>
+
+        <!-- 排行榜标题 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="消费排行榜"
+            android:textColor="@color/text_primary"
+            android:textSize="16sp"/>
+
+        <!-- 排行榜列表 -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_rank"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="8dp"
+            android:overScrollMode="never"/>
+
+    </LinearLayout>
+
+    <!-- 空数据提示 -->
+    <LinearLayout
+        android:id="@+id/ll_empty_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        android:layout_marginTop="32dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="暂无数据"
+            android:textColor="@color/text_secondary"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+</FrameLayout> 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_details"
+        android:title="@string/title_details" />
+
+    <item
+        android:id="@+id/navigation_add"
+        android:title="@string/title_add" />
+
+    <item
+        android:id="@+id/navigation_statistics"
+        android:title="@string/title_statistics" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:title="@string/title_profile" />
+</menu> 

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主题颜色 -->
+    <color name="primary">#A78B77</color>          <!-- 主色调：温暖的棕色 -->
+    <color name="primary_dark">#503B29</color>     <!-- 深色主题：深棕色 -->
+    <color name="primary_variant">#8B7355</color>  <!-- 主色调变体 -->
+    <color name="accent">#FFF8DC</color>           <!-- 强调色：米色 -->
+
+    <!-- 基础颜色 -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="background">#FFF8DC</color>       <!-- 背景色：浅米色 -->
+    <color name="background_light">#FFFAF0</color> <!-- 浅色背景 -->
+
+    <!-- 文本颜色 -->
+    <color name="text_primary">#503B29</color>     <!-- 主要文本：深棕色 -->
+    <color name="text_secondary">#7D6E63</color>   <!-- 次要文本：中棕色 -->
+    <color name="text_hint">#A78B77</color>        <!-- 提示文本：浅棕色 -->
+    <color name="text_danger">#FF4444</color>
+
+    <!-- 功能颜色 -->
+    <color name="expense">#D32F2F</color>          <!-- 支出：红色 -->
+    <color name="income">#388E3C</color>           <!-- 收入：绿色 -->
+    <color name="divider">#E0D4C3</color>          <!-- 分割线：浅米色 -->
+
+    <!-- 卡片和按钮 -->
+    <color name="card_background">#FFFAF0</color>  <!-- 卡片背景：浅米色 -->
+    <color name="button_normal">#A78B77</color>    <!-- 按钮正常状态 -->
+    <color name="button_pressed">#8B7355</color>   <!-- 按钮按下状态 -->
+
+    <!-- 开屏 -->
+    <color name="splash_background">#FFF8DC</color>
+    <color name="splash_text">#8B7355</color>
+
+    <!-- Profile Colors -->
+    <color name="gold">#FFD700</color>
+    <color name="profile_bg">#FFF8DC</color>       <!-- 主题米色 -->
+    <color name="receipt_edge">#E0D4C3</color>     <!-- 主题分割线色 -->
+
+    <!-- VIP -->
+    <color name="vip_plan_selected">#FFF8DC</color>        <!-- 主题米色 -->
+    <color name="vip_plan_normal">#FFFAF0</color>         <!-- 浅色背景 -->
+    <color name="vip_plan_border_selected">#A78B77</color> <!-- 主色调 -->
+    <color name="vip_plan_border_normal">#E0D4C3</color>   <!-- 分割线色 -->
+
+    <!-- Category -->
+    <color name="category_selected">#FFF8DC</color>        <!-- 主题米色 -->
+    <color name="category_normal">#FFFAF0</color>         <!-- 浅色背景 -->
+
+    <!-- 统计图表颜色 -->
+    <color name="chart_expense">#D32F2F</color>     <!-- 支出红色 -->
+    <color name="chart_income">#388E3C</color>      <!-- 收入绿色 -->
+    <color name="chart_balance">#A78B77</color>     <!-- 主色调 -->
+
+    <!-- 预测图表颜色 -->
+    <color name="chart_prediction">#5D4037</color>  <!-- 深棕色 -->
+    <color name="chart_prediction_fill">#805D4037</color> <!-- 深棕色带透明度 -->
+    <color name="chart_history">#8D6E63</color>     <!-- 中棕色 -->
+
+    <!-- 涟漪效果颜色 -->
+    <color name="ripple">#33000000</color>
+
+    <!-- 修改主题选择器的背景颜色，使用带透明度的主题色 -->
+    <color name="primary_alpha_20">#33A78B77</color>  <!-- 主色调 A78B77 的 20% 透明度版本 -->
+    <color name="primary_light">#F5EFE6</color>      <!-- 更浅的米色，用于背景 -->
+
+    <!-- 饼图颜色 -->
+    <color name="pie_color_1">#FF6347</color>  <!-- Tomato -->
+    <color name="pie_color_2">#FFA500</color>  <!-- Orange -->
+    <color name="pie_color_3">#FFD700</color>  <!-- Gold -->
+    <color name="pie_color_4">#32CD32</color>  <!-- Lime Green -->
+    <color name="pie_color_5">#00BFFF</color>  <!-- Deep Sky Blue -->
+    <color name="pie_color_6">#9370DB</color>  <!-- Medium Purple -->
+    <color name="pie_color_7">#A9A9A9</color>  <!-- Dark Gray -->
+
+    <!-- 日历模式颜色 -->
+    <color name="colorExpense">#F44336</color>
+    <color name="colorIncome">#4CAF50</color>
+
+    <!-- 默认主题颜色（棕色系） -->
+    <color name="default_primary">#795548</color>
+    <color name="default_primary_dark">#5D4037</color>
+    <color name="default_accent">#8D6E63</color>
+    <color name="default_background">#FAFAFA</color>
+    <color name="default_surface">#FFFFFF</color>
+    <color name="default_text_primary">#212121</color>
+    <color name="default_text_secondary">#757575</color>
+
+    <!-- 粉色主题颜色 -->
+    <color name="pink_primary">#EC407A</color>
+    <color name="pink_primary_dark">#D81B60</color>
+    <color name="pink_accent">#FF80AB</color>
+    <color name="pink_background">#FFF5F7</color>
+    <color name="pink_surface">#FFFFFF</color>
+    <color name="pink_text_primary">#212121</color>
+    <color name="pink_text_secondary">#757575</color>
+
+    <!-- 蓝色主题颜色 -->
+    <color name="blue_primary">#2196F3</color>
+    <color name="blue_primary_dark">#1976D2</color>
+    <color name="blue_accent">#64B5F6</color>
+    <color name="blue_background">#F5F9FF</color>
+    <color name="blue_surface">#FFFFFF</color>
+    <color name="blue_text_primary">#212121</color>
+    <color name="blue_text_secondary">#757575</color>
+
+    <!-- 深色主题颜色 -->
+    <color name="dark_primary">#121212</color>
+    <color name="dark_primary_dark">#000000</color>
+    <color name="dark_accent">#BB86FC</color>
+    <color name="dark_background">#121212</color>
+    <color name="dark_surface">#1E1E1E</color>
+    <color name="dark_text_primary">#FFFFFF</color>
+    <color name="dark_text_secondary">#B3FFFFFF</color>
+
+</resources>

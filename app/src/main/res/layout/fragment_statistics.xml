@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 顶部工具栏 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/primary"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingHorizontal="16dp">
+
+        <!-- 账本选择器 -->
+        <LinearLayout
+            android:id="@+id/layout_ledger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="?attr/selectableItemBackground">
+
+            <TextView
+                android:id="@+id/tv_ledger_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ledger_default"
+                android:textColor="@color/white"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="4dp"
+                android:src="@drawable/ic_arrow_down"/>
+        </LinearLayout>
+
+        <!-- 右侧空白占位 -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <!-- 模式切换按钮组 -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:orientation="horizontal"
+            android:background="@drawable/bg_mode_switch">
+
+            <TextView
+                android:id="@+id/btn_trend_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="12dp"
+                android:gravity="center"
+                android:text="@string/statistics_trend_mode"
+                android:textSize="14sp"
+                android:textColor="@color/text_primary"
+                android:background="@drawable/bg_mode_switch_item"/>
+
+            <TextView
+                android:id="@+id/btn_rank_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="12dp"
+                android:gravity="center"
+                android:text="@string/statistics_rank_mode"
+                android:textSize="14sp"
+                android:textColor="@color/text_primary"
+                android:background="@drawable/bg_mode_switch_item"/>
+
+            <TextView
+                android:id="@+id/btn_analysis_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="12dp"
+                android:gravity="center"
+                android:text="@string/statistics_analysis_mode"
+                android:textSize="14sp"
+                android:textColor="@color/text_primary"
+                android:background="@drawable/bg_mode_switch_item"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 月份选择器 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@color/primary">
+
+        <ImageButton
+            android:id="@+id/btn_prev_month"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_arrow_left"/>
+
+        <TextView
+            android:id="@+id/tv_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="16dp"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/btn_next_month"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_arrow_right"/>
+    </LinearLayout>
+
+    <!-- 内容区域 -->
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+</LinearLayout> 
