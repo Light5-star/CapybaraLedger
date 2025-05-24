@@ -85,8 +85,8 @@ class BillViewModel(
             
             try {
                 Log.d("BillViewModel", "开始加载当前账本(ID:$ledgerId)的账单数据")
-                // 获取当前日历视图的时间范围
-                val (startTime, endTime) = getCurrentMonthRange()
+                // 获取今天的时间范围
+                val (startTime, endTime) = getCurrentDayRange()
                 
                 // 加载账单
                 val bills = billRepository.getBillsByDateRange(
@@ -216,6 +216,27 @@ class BillViewModel(
         val endTime = endCalendar.timeInMillis
 
         Log.d("BillViewModel", "Time range for month $month: ${startCalendar.time} to ${endCalendar.time}")
+        return Pair(startTime, endTime)
+    }
+
+    // 新增方法：获取今天的开始和结束时间戳
+    private fun getCurrentDayRange(): Pair<Long, Long> {
+        val calendar = Calendar.getInstance()
+        // 设置为今天的开始时间 (00:00:00.000)
+        calendar.set(Calendar.HOUR_OF_DAY, 0)
+        calendar.set(Calendar.MINUTE, 0)
+        calendar.set(Calendar.SECOND, 0)
+        calendar.set(Calendar.MILLISECOND, 0)
+        val startTime = calendar.timeInMillis
+
+        // 设置为今天的结束时间 (23:59:59.999)
+        calendar.set(Calendar.HOUR_OF_DAY, 23)
+        calendar.set(Calendar.MINUTE, 59)
+        calendar.set(Calendar.SECOND, 59)
+        calendar.set(Calendar.MILLISECOND, 999)
+        val endTime = calendar.timeInMillis
+
+        Log.d("BillViewModel", "Today's range: ${Date(startTime)} to ${Date(endTime)}")
         return Pair(startTime, endTime)
     }
 
